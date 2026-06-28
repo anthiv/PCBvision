@@ -1,39 +1,70 @@
-# Industrial Vision Platform
+# PCBVision
 
-End-to-end industrial computer vision platform for defect detection, designed to demonstrate production-ready ML engineering practices.
+> **A production-ready PCB inspection platform demonstrating end-to-end Machine Learning Engineering practices.**
 
-## Status
+PCBVision is an industrial computer vision project focused on Printed Circuit Board (PCB) defect detection. Rather than showcasing only a machine learning model, the project demonstrates the complete lifecycle of building, deploying, and maintaining production-ready ML systems.
 
-🚧 Sprint 1 — Foundations
+The goal is to bridge the gap between machine learning experimentation and production software engineering by integrating modern MLOps and backend development practices into a single end-to-end application.
 
-## Goals
+---
 
-- Build a computer vision model for industrial defect detection
-- Expose predictions through an API
-- Containerize the system with Docker
-- Track experiments with MLflow
-- Add CI/CD with GitHub Actions
-- Create a polished demo interface
+## 🚀 Project Goals
 
-## Roadmap
+PCBVision is designed to demonstrate:
 
-- [ ] Project setup
-- [ ] Dataset selection
-- [ ] Baseline model
-- [ ] FastAPI inference service
-- [ ] Dockerization
-- [ ] MLflow integration
-- [ ] Streamlit demo
-- [ ] CI/CD pipeline
-- [ ] Deployment
+* Industrial computer vision for PCB defect detection
+* Production-ready API development with FastAPI
+* Experiment tracking using MLflow
+* Containerized deployment with Docker
+* Automated testing with Pytest
+* Continuous Integration with GitHub Actions
+* Clean software architecture and modular code organization
+* Production-focused Machine Learning Engineering practices
 
-## Project Structure
+---
+
+## 🛠 Tech Stack
+
+| Layer               | Technology             |
+| ------------------- | ---------------------- |
+| Backend             | FastAPI, Pydantic      |
+| Machine Learning    | PyTorch, YOLO, OpenCV  |
+| Database            | PostgreSQL             |
+| Experiment Tracking | MLflow                 |
+| Containerization    | Docker, Docker Compose |
+| CI/CD               | GitHub Actions         |
+| Testing             | Pytest                 |
+
+---
+
+## 📂 Repository Structure
 
 ```text
-app/        FastAPI application code
-ml/         ML training, inference, and evaluation code
-tests/      Automated tests
-configs/    Configuration files
-scripts/    Utility scripts
-docker/     Docker-related files
-docs/       Documentation
+pcbvision/
+│
+├── app/           # FastAPI application
+├── ml/            # Training, inference and evaluation
+├── configs/       # Configuration files
+├── scripts/       # Utility scripts
+├── tests/         # Automated tests
+├── notebooks/     # Research and experimentation
+├── docker/        # Docker configuration
+├── docs/          # Project documentation
+└── assets/        # Images, diagrams and media
+```
+
+---
+
+## 📖 Documentation
+
+Project documentation is maintained throughout development and includes:
+
+* Vision and project goals
+* Product specification
+* System architecture
+* Architecture Decision Records (ADRs)
+* Sprint planning and engineering notes
+
+---
+
+
