@@ -26,3 +26,14 @@ End-to-end industrial computer vision platform for defect detection, designed to
 - [ ] Streamlit demo
 - [ ] CI/CD pipeline
 - [ ] Deployment
+
+## Project Structure
+
+```text
+app/        FastAPI application code
+ml/         ML training, inference, and evaluation code
+tests/      Automated tests
+configs/    Configuration files
+scripts/    Utility scripts
+docker/     Docker-related files
+docs/       Documentation
