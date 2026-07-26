@@ -5,6 +5,7 @@ venv/
 .env
 
 data/raw/
+data/pcb-defect-dataset/ 
 data/processed/
 models/
 mlruns/
