@@ -4,11 +4,12 @@ __pycache__/
 venv/
 .env
 
-data/raw/
-data/pcb-defect-dataset/ 
-data/processed/
+dataset/
 models/
 mlruns/
 
 .ipynb_checkpoints/
 .DS_Store
+
+runs/
+*.pt
